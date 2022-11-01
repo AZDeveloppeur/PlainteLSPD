@@ -1,0 +1,59 @@
+body {
+    background-color: #3F17A6;
+}
+
+#ta {
+    font-weight: bold;
+    font-family: OCR A Std, monospace;
+    background-color: #F2DFDF;
+    color: black;
+    width: 960px;
+    height: 555px;
+    border: none;
+    padding: 15px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 1rem;
+}
+
+#save {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 1rem;
+    transition: background-color 1s;
+    transition: box-shadow 1s;
+}
+
+#save:hover {
+    background-color: #1580B0;
+    box-shadow: 0 8px 16px 0 grey;
+}
+
+#download {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 1rem;
+    transition: background-color 1s;
+    transition: box-shadow 1s;
+}
+
+#download:hover {
+    background-color: #1580B0;
+    box-shadow: 0 8px 16px 0 grey;
+}
