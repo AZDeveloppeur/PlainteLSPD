@@ -1,22 +1,23 @@
-body {
-    background-color: #3F17A6;
-}
-
-#ta {
+#text {
+    position: absolute;
     font-weight: bold;
     font-family: OCR A Std, monospace;
     background-color: #F2DFDF;
     color: black;
-    width: 960px;
-    height: 555px;
-    border: none;
+    width: 1170px;
+    height: 70px;
+    border: solid;
     padding: 15px;
     display: inline-block;
     margin: 4px 2px;
     border-radius: 1rem;
+    resize: none;
 }
 
 #save {
+    position: absolute;
+    left: 10px;
+    top: 120px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     border: none;
@@ -28,16 +29,15 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 1rem;
-    transition: background-color 1s;
-    transition: box-shadow 1s;
+    transition: box-shadow 1s, background-color 3s;
 }
 
 #save:hover {
-    background-color: #1580B0;
+    background-color: #38044b;
     box-shadow: 0 8px 16px 0 grey;
 }
 
-#download {
+/* #download {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     border: none;
@@ -56,4 +56,4 @@ body {
 #download:hover {
     background-color: #1580B0;
     box-shadow: 0 8px 16px 0 grey;
-}
+} */
